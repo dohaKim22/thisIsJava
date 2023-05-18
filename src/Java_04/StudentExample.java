@@ -1,0 +1,16 @@
+package Java_04;
+
+
+
+
+public class StudentExample {
+    public static void main(String[] args) {
+        //student 클래스의 인스턴스임
+        Student s1 = new Student();
+        System.out.println("s1 변수가 Student 객체를 참조합니다.");
+
+        Student s2 = new Student();
+        System.out.println("s2 변수가 또 다른 Student 객체를 참조합니다.");
+
+    }
+}
